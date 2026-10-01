@@ -47,21 +47,31 @@ _While others reach for **bigger models** and **larger languages** to patch **cr
 
 ## Get Started
 
-1. **Install Trayambak CLI**
+## 1. **Install Trayambak CLI**
 
+**MacOS/Linux (Recommended):** 
+```
+curl -fsSL https://skt.sktailabs.in/install.sh | bash
+```
+**Windows (Recommended):**
+```
+irm https://skt.sktailabs.in/install.ps1 | iex
+```
+
+**NPM**
 ```
 npm install -g @skt-ai-labs/trayambak-cli
 ```
 
-2. How To **Launch** The **CLI**
+## 2. How To **Launch** The **CLI**
 
-Type `skt` or `trayambak` in your terminal:
+**Navigate to your project directory.** Type `skt` or `trayambak` in your terminal:
 
 ```
 trayambak
 ```
 
-3. **Connect** With Any **Provider**
+## 3. **Connect** With Any **Provider**
 
 Type `/provider` and connect with any provider:
 
@@ -69,7 +79,7 @@ Type `/provider` and connect with any provider:
 /provider
 ```
 
-4. Choose A **Model**
+## 4. Choose A **Model**
 
 Type `/models` and pick one from the list:
 
